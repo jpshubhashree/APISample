@@ -1,13 +1,10 @@
-﻿using CacheAccessToken.Model;
-using System;
+﻿using System;
 using System.Net;
 using System.Net.Http;
 
-namespace CacheAccessToken
+namespace WebApiWrapper.Helper
 {
-    #region ClientHelper
-
-    internal class ClientHelper
+    public class ClientHelper
     {
         public HttpClient GetClient()
         {
@@ -35,6 +32,4 @@ namespace CacheAccessToken
         }
 
     }
-
-    #endregion
 }

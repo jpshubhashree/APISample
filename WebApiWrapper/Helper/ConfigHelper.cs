@@ -1,8 +1,8 @@
 ﻿using System.Configuration;
 
-namespace CacheAccessToken.Model
+namespace WebApiWrapper.Helper
 {
-    internal class ConfigHelper
+    public class ConfigHelper
     {
         public static string BaseUrl { get; internal set; } = ConfigurationManager.AppSettings["BaseUrl"];
         public static string TokenUrl { get; internal set; } = ConfigurationManager.AppSettings["TokenUrl"];

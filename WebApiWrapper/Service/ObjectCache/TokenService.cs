@@ -1,12 +1,13 @@
-﻿using CacheAccessToken.Model;
-using Newtonsoft.Json;
+﻿using Newtonsoft.Json;
 using System;
 using System.Net;
 using System.Net.Http;
 using System.Runtime.Caching;
 using System.Threading.Tasks;
+using WebApiWrapper.Helper;
+using WebApiWrapper.Model;
 
-namespace CacheAccessToken
+namespace WebApiWrapper.Service
 {
     public class TokenService : ITokenService
     {
